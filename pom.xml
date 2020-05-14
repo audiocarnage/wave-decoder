@@ -21,7 +21,6 @@
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-        <git.uri>https://github.com/audiocarnage/wave-decoder.git</git.uri>
         <jdk.version>13</jdk.version>
 
         <version.guava>29.0-jre</version.guava>
@@ -115,16 +114,8 @@
                     </includes>
                     <replacements>
                         <replacement>
-                            <token>%GIT_URI%</token>
-                            <value>${git.uri}</value>
-                        </replacement>
-                        <replacement>
                             <token>%PROJECT_VERSION%</token>
                             <value>${project.version}</value>
-                        </replacement>
-                        <replacement>
-                            <token>%ARTIFACT_ID%</token>
-                            <value>${project.artifactId}</value>
                         </replacement>
                         <replacement>
                             <token>%DESCRIPTION%</token>
